@@ -31,9 +31,7 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
-		String firstTwo = input.substring(0, 2);
-	    String rest = input.substring(2);
-	    return rest + firstTwo;
+	    return input.substring(2) + input.substring(0, 2);
 	}
 	
 	/**
