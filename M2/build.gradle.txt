@@ -1,6 +1,4 @@
-defaultTasks 'jar'
-
-apply plugin: '<plugin>'
+apply plugin: 'java'
 
 dependencies {
 	_____________
@@ -11,4 +9,8 @@ jar {
 		attributes("<attribute>": "______", 
         		   "<attribute>": "_______")
 	}
+}
+
+repositories {
+   mavenCentral()
 }
