@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+dependencies {
+	_____________
+}
+
+jar { 
+	manifest {
+		attributes("<attribute>": "______", 
+        		   "<attribute>": "_______")
+	}
+}
+
+repositories {
+   mavenCentral()
+}
